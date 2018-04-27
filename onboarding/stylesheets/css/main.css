@@ -7,3 +7,29 @@ a .header-links {
     color: white;
     padding-top:10px;
 }
+
+.welcome {
+    width: 100px;
+    background: #1047A9;
+    -webkit-transition: width 4s; /* Safari */
+    transition: width 4s;
+}
+
+.add-phone {
+    width: 100px;
+    background: #66CCDD;
+    -webkit-transition: width 4s; /* Safari */
+    transition: width 4s;
+}
+
+.login {
+    width: 100px;
+    background: #6CDBC0;
+    -webkit-transition: width 4s; /* Safari */
+    transition: width 4s;
+}
+
+/* Standard syntax */
+#welcome {transition-timing-function: ease;}
+#add-phone {transition-timing-function: ease;}
+#login {transition-timing-function: ease;}

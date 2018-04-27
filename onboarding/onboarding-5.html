@@ -10,13 +10,40 @@
    <link rel="stylesheet" href="/stylesheets/css/main.css">
    <link rel="stylesheet" href="https://use.typekit.net/qzo0syp.css">
 
+   <style>
+   .welcome {
+    width: 100px;
+    background: #1047A9;
+    -webkit-transition: width 4s; /* Safari */
+    transition: width 4s;
+}
+
+.add-phone {
+    width: 100px;
+    background: #66CCDD;
+    -webkit-transition: width 4s; /* Safari */
+    transition: width 4s;
+}
+
+.welcome:hover {
+    width: 300px;
+}
+
+.add-phone:hover {
+    width: 300px;
+}
+
+#welcome {transition-timing-function: ease;}
+#add-phone {transition-timing-function: ease;}
+
+   </style>
 
     <title>2FA Confirmation Code</title>
   </head>
   <body>
 <!-- HEADER BAR START -->
 
-      <div style="background-color: blue; color: white;" class="container-fluid">
+      <div style="background-color: #1047A9; color: white;" class="container-fluid">
           <div class="row justify-content-between">
             <div class="col-md-3">
           <h2>Digital Gold</h2></div>
@@ -29,9 +56,9 @@
 <!-- PROGRESS BAR START -->
         <div style="display: flex; justify-content: center;" class="container">
               <div class="row">
-                  <div style="display: flex; justify-content: space-evenly; padding-top:50px; border-bottom: solid 3px blue;" class="col-lg-12">
-                  <div style="margin-left:20px; margin-right: 20px;" class="col-sm-3 col-md-3"><p><strong>Welcome</strong></p></div>
-                    <div style="margin-left: 20px; margin-right: 20px;" class="col-sm-5 col-md-4 offset-md-2"><p><strong>Add Phone</strong></p></div>
+                  <div style="display: flex; justify-content: space-evenly; padding-top:50px; border-bottom: solid 3px #1047A9;" class="col-lg-12">
+                  <div style="margin-left:20px; margin-right: 20px;" class="col-sm-3 col-md-3 welcome" id="welcome"><p><strong>Welcome</strong></p></div>
+                    <div style="margin-left: 20px; margin-right: 20px;" class="col-sm-5 col-md-4 offset-md-2 add-phone" id="add-phone"><p><strong>Add Phone</strong></p></div>
                    <div style="margin-left: 20px; margin-right: 10px;" class="col-sm-4 col-md-3 offset-md-2"><p>Login</p></div>
                     
                   </div></div></div>
