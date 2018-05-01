@@ -8,6 +8,11 @@ a .header-links {
     padding-top:10px;
 }
 
+.header-bar {
+    background-color: #1047A9;
+    color: white;   
+}
+
 .welcome {
     width: 100px;
     background: #1047A9;
