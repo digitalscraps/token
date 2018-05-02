@@ -1,14 +1,16 @@
 input {
     width: 100%;
-    padding: 10px;
+    padding: .5rem;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 1rem;
     border: none;
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid #296EFB;
     margin-bottom: 40px;
+    background-color: rgba(43,48,61,0.25);
   }
   input:focus {
     outline: none;
+    background-color: transparent;
   }
   .label-box {
     position: relative;
@@ -19,12 +21,14 @@ input {
     font-size: 16px;
     transition: 0.2s ease all;
     pointer-events: none;
+    color: #296EFB;
+    font-weight: 
   }
   input:focus ~ .label-box label,
   input:valid ~ .label-box label {
     font-size: 14px;
     transform: translateY(-35px);
-    color: rgba(52,152,219,0.7);
+    color: #296EFB;
   }
   input[class="btn"] {
     border: none;
