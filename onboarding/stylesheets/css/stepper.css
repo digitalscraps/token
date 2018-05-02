@@ -5,10 +5,8 @@ html {
 }
 
 .md-stepper-horizontal {
-	display:table;
 	width:100%;
 	margin:0 auto;
-	background-color:#FFFFFF;
 }
 .md-stepper-horizontal .md-step {
 	display:table-cell;
@@ -55,7 +53,7 @@ html {
 }
 .md-stepper-horizontal .md-step .md-step-title,
 .md-stepper-horizontal .md-step {
-	text-align: center;
+	
 	color:rgba(0,0,0,.26);
 }
 .md-stepper-horizontal .md-step.active .md-step-title {
@@ -69,9 +67,7 @@ html {
 .md-stepper-horizontal .md-step {
 	font-size:12px;
 }
-.md-stepper-horizontal .md-step.active  {
-	color:rgba(0,0,0,.54);
-}
+
 .md-stepper-horizontal .md-step .md-step-bar-left,
 .md-stepper-horizontal .md-step .md-step-bar-right {
 	position:absolute;
@@ -80,12 +76,12 @@ html {
 	border-top:3px solid #999999;
 }
 
-.md-step-bar-left.active, .md-step-bar-right.active {
-    position:absolute;
-	top:36px;
-	height:1px;
-	border-top:3px solid #296efb;
+.md-stepper-horizontal .md-step.active .md-step-bar-left.active 
+.md-stepper-horizontal .md-step.active .md-step-bar-right.active {
+    border-top:3px solid #296efb;
+    
 }
+
 .md-stepper-horizontal .md-step .md-step-bar-right {
 	right:0;
 	left:61%;
