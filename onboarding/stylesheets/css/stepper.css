@@ -32,12 +32,7 @@ html {
 	font-weight: 600;
 	color:#FFFFFF;
 }
-.md-stepper-horizontal.green .md-step.active .md-step-circle {
-	background-color:#00AE4D;
-}
-.md-stepper-horizontal.blue .md-step.active .md-step-circle {
-	background-color:#296efb;
-}
+
 .md-stepper-horizontal .md-step.active .md-step-circle {
 	background-color: #296efb;
 }
@@ -82,15 +77,18 @@ html {
 	position:absolute;
 	top:36px;
 	height:1px;
-	border-top:3px solid #296efb;
+	border-top:3px solid #999999;
 }
 
-.md-step-bar-left:active, .md-step-bar-right:active {
-    
+.md-step-bar-left.active, .md-step-bar-right.active {
+    position:absolute;
+	top:36px;
+	height:1px;
+	border-top:3px solid #296efb;
 }
 .md-stepper-horizontal .md-step .md-step-bar-right {
 	right:0;
-	left:60%;
+	left:61%;
 	
 }
 .md-stepper-horizontal .md-step .md-step-bar-left {
