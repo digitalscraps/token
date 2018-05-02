@@ -6,7 +6,7 @@ input {
     border: none;
     border-bottom: 1px solid #296EFB;
     margin-bottom: 40px;
-    background-color: rgba(43,48,61,0.25);
+    background-color: rgba(43,48,61,0.10);
   }
   input:focus {
     outline: none;
@@ -17,7 +17,8 @@ input {
   }
   label {
     position: absolute;
-    top: -66px;
+    top: -72px;
+    left: 8px;
     font-size: 16px;
     transition: 0.2s ease all;
     pointer-events: none;
@@ -46,7 +47,7 @@ input {
     height: 2px;
     width: 0;
     bottom: 40px;
-    background-color: rgba(52,152,219,0.7);
+    background-color: #296EFB;
     transition: all 0.3s;
   }
   .label-box::before {
