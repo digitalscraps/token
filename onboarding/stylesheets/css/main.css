@@ -46,6 +46,7 @@ body {
     padding-bottom: 40px;
 }
 
+
 @media all and (max-width: 760px) and (min-width: 300px) {
     .placeholder {
         width: 50%;
