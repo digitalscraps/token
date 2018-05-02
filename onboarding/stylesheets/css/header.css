@@ -1,0 +1,49 @@
+.header {
+    background-color: #2B303D;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.brand {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    background-color: #296EFB;
+    color: #E7F1EF;
+    font-size: 28px;
+    padding: 20px 10px;
+    font-weight: 600;
+}
+
+.login {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.login a {
+    font-size: 18px;
+    color: #E7F1EF; 
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    .brand h2 {
+        font-size: 18px;
+    }
+    .login {
+        margin-left: auto;
+    }
+    .login a {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 760px) and (min-width: 300px) {
+    .login {
+        justify-content: center;
+        margin: 5px 0;
+
+    }
+}
