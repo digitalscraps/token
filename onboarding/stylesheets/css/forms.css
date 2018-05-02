@@ -55,4 +55,11 @@ input {
   input:focus ~ .label-box::after {
     width: 50%;
   }
+
+  .dg-form-check-label {
+    margin-bottom: 0;
+    top: 4px;
+    font-size: 12px;
+}
+  }
   
