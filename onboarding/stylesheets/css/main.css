@@ -3,7 +3,7 @@
 
 body {
     
-    font-family: "Avenir";
+    font-family: "Avenir" !important;
     color: #2B303D;
 }
 
