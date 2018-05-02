@@ -5,7 +5,7 @@ input {
     font-size: 1rem;
     border: none;
     border-bottom: 1px solid #296EFB;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
     background-color: rgba(43,48,61,0.10);
   }
   input:focus {
@@ -17,13 +17,12 @@ input {
   }
   label {
     position: absolute;
-    top: -72px;
+    top: -64px;
     left: 8px;
     font-size: 16px;
     transition: 0.2s ease all;
     pointer-events: none;
     color: #296EFB;
-    font-weight: 
   }
   input:focus ~ .label-box label,
   input:valid ~ .label-box label {
@@ -68,4 +67,7 @@ input {
     position: relative;
 }
 
+.dg-form-mt {
+  margin-top: 2.5rem;
+}
   
