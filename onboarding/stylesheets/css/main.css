@@ -37,13 +37,13 @@ body {
     margin-right: 10px;
 }
 
-.dg-onboard h1 {
+.dg-onboard-title {
     padding-bottom: 40px;
 }
 
-.dg-onboard p {
+.dg-onboard-text {
     font-size: 1.5rem;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 
